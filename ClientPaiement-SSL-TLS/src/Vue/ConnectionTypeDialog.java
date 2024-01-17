@@ -19,6 +19,7 @@ public class ConnectionTypeDialog extends JDialog {
     public ConnectionTypeDialog() {
         setContentPane(contentPane);
         setModal(true);
+        setSize(500, 250);
         getRootPane().setDefaultButton(buttonOK);
 
         buttonGroup = new ButtonGroup();
